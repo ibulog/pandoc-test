@@ -6,5 +6,5 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
-      - run: echo "foo" > input.txt  # create an example file
+      - run: echo "foo" > /github/workspace/input.txt  # create an example file
       - uses: docker://pandoc/core:2.9
