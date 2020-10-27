@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: docker://pandoc/core:latest
         with:
-          args: "/github/Pandoc.md -f markdown -t html -s -o /github/Pandoc.html"
+          args: "/github/home/Pandoc.md -f markdown -t html -s -o /github/home/Pandoc.html"
